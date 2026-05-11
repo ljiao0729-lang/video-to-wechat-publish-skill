@@ -1,0 +1,17 @@
+{
+  "name": "doubao-multimodal-skill",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "doubao-multimodal": "main.ts"
+  },
+  "dependencies": {
+    "@volcengine/tos-sdk": "^2.9.1",
+    "commander": "^14.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.13",
+    "typescript": "^6.0.3"
+  }
+}
